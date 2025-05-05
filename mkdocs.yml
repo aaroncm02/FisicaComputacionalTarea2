@@ -6,7 +6,7 @@ nav:
   - Inicio: index.md
   - Explicación: explanation.md
   - Tutoriales: tutorials.md
-  - Referencia: references.md
+  - Referencia: reference.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
