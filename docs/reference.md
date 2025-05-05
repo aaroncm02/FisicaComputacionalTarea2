@@ -1,5 +1,5 @@
-# Funciones de Cuadratura
 
-```{python}
-:mod: cuadrature
+# Referencia del módulo
 
+::: cuadrature
+    handler: python
