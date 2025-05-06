@@ -56,3 +56,6 @@ def cuadratura_gaussiana(N, a=0, b=np.pi):
     x, w = gaussxw(N)
     xp, wp = gaussxwab(a, b, x, w)
     return np.sum(wp * integrando(xp))
+
+resultado = cuadratura_gaussiana(50)
+print(f"Resultado estimado de la integral: {resultado:.10f}")
